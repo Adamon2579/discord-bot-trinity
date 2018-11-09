@@ -1,0 +1,14 @@
+{
+  "name": "Trinity",
+  "version": "1.0.0",
+  "description": "My First Discord Bot",
+  "main": "bot.js",
+  "author": "Adamon",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.3.2",
+    "fs": "0.0.1-security",
+    "winston": "^3.1.0"
+  }
+}
