@@ -10,5 +10,8 @@
     "enmap": "^4.3.2",
     "fs": "0.0.1-security",
     "winston": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node trinity_bot.js"
   }
 }
