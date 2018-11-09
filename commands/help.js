@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
     description: "Voici la liste des commandes que je connais :",
     fields: [{
       name: "help",
-      value: "Je suppose qu'une explication de cette commande n'est pas réellement nécéssaire. Si ?"
+      value: "Une explication de cette commande n'est pas réellement nécéssaire. Si ?"
     },
     {
       name: "Ping",
