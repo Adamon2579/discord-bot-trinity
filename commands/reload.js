@@ -1,6 +1,6 @@
 //--- Reload Command---
 exports.run = (client, message, args) => {
-  if(message.author.id !== client.config.ownerID) return;
+  if(message.author.id !== process.env.OWNERID) return;
   if(!args || args.size < 1) return message.reply("Must provide a command name to reload.");
   const commandName = args[0];
   // Check if the command exists and is valid

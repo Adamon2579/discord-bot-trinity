@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const Enmap = require('enmap');
 const fs = require('fs');
-const config = require('./config.json');
+//const config = require('./config.json');
 
 const client = new Discord.Client();
-client.config = config;
+//client.config = config;
 
 fs.readdir('./events/', (err, files) => {
   if (err) return console.error(err);
@@ -28,7 +28,7 @@ fs.readdir("./commands/", (err, files) => {
   });
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
 
 // -- events à ajouter --
 // ready
